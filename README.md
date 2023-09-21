@@ -9,6 +9,7 @@ Laporan Resmi Praktikum Jaringan Komputer
 ### Soal 1
 ---
 nc 10.21.78.111 12345
+
 User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
 a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut? 
 
