@@ -38,6 +38,7 @@ pada sisi bawah terdapat beberapa panel, klik panel `Transmission Control Protoc
 
 
 untuk `1c,d` karena perintah soal menunjukkan response dari aktivitas sebelumnya, maka kita bisa search pada display filter `ftp.response.code == 150`
+
 `150` bentuk kode respons setelah klien mengirim perintah `STOR`
 tetapi lebih cepat jika kita langsung pilih packet setelah `STOR` tadi. Setelah itu langkahnya sama seperti `1a,b`
 
