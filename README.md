@@ -22,7 +22,6 @@ d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari
 ---
 ### Jawaban
 ---
-
 Search pada display filter:
 ```
 ftp 
