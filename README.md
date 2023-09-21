@@ -114,7 +114,8 @@ perintah tersebut akan mengarahkan langsung pada paket 130
 ![soal4.1](img/soal4.1.png)
 lalu, pada sisi kiri bawah klik panel `User Data Protocol..` dapat-lah jawaban nilai cheksum.
 ![soal4.2](img/soal4.2.png)
-copy`nc 10.21.78.111 13591` pada terminal untuk mendapatkan kenyataan yang sebenarnya, jangan senang dahulu wahai manusia byasa. Jika berhasil dan mendapatkan flag, submit pada platform praktikum.
+
+Copy`nc 10.21.78.111 13591` pada terminal untuk mendapatkan kenyataan yang sebenarnya, jangan senang dahulu wahai manusia byasa. Jika berhasil dan mendapatkan flag, submit pada platform praktikum.
 ![soal4.3](img/soal4.3.png)
 
 ---
