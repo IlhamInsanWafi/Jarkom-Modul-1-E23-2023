@@ -154,11 +154,29 @@ Untuk menjawab soal ini, kita perlu terlebih dahulu mencari password untuk bisa 
 
 ![soal5.3](img/Soal5.3.png)
 
-- Password yang didapat perlu di decode terlebih dahulu dengan base64decode lalu mendapatkan hasil decode adalah 5implePas5word.
+> Password yang didapat perlu di decode terlebih dahulu dengan base64decode lalu mendapatkan hasil decode adalah 5implePas5word.
 
-![soal5.4](img/Soal 5.4.png)
+![soal5.8](img/Soal5.8.png)
 
+> Lalu gunakan password untuk membuka file connect
 
+![soal5.4](img/Soal5.4.png)
+
+![soal5.9](img/Soal5.9.png)
+
+Untuk menjawab soal no `5a` yaitu mengetahui banyak paket yang tercapture dari file pcap tersebut yaitu dengan melihat dibagian bawah tampilan file pcap pada wireshark terdapat keterangan bahwa displayed = 60.
+
+![soal5.5](img/Soal5.5.png)
+
+Untuk menjawab soal `5b` yaitu mengetahu port berapakah pada server yang digunakan untuk service SMTP. Kita dapat melihat dibagian Transmission Control Protocol terdapat keterangan bahwa destination port nya adalah 25.
+
+![soal5.6](img/Soal5.6.png)
+
+Untuk menjawab soal `5c` kita dapat menganalisis IP yang merupakan public IP. Maka didapatkan yang termasuk public IP adalah 74.53.140.153
+
+![soal5.7](img/Soal5.7.png)
+
+Setelah mengetahui jawaban tiap soal, copy`nc 10.21.78.111 11111`pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
 
 
 
