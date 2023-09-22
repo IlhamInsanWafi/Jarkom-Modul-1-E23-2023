@@ -261,7 +261,20 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
 ### Jawaban
 ---
 
+Untuk menjawab soal nomor 9, kita membuat kueri filter sebagai berikut:
+```
+ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
+```
+Penjelasan queri diatas adalah:
+- `tcp.dstport == 80`: Ini adalah bagian pertama dari kueri. Bagian ini berarti mencari paket-paket yang menggunakan protokol TCP (Transmission Control Protocol) dan memiliki port tujuan (destination port) 80
+- `||`: Ini adalah operator logika "atau" yang digunakan untuk menggabungkan dua kondisi.
+- `udp.dstport == 80`: Bagian kedua dari kueri ini berarti Anda ingin mencari paket-paket yang menggunakan protokol UDP (User Datagram Protocol) dan memiliki port tujuan 80.
 
+![Soal8.1](img/Soal8.1.png)
+
+Setelah itu, copy `nc 10.21.78.111 7171` pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
+
+![soal8.2](img/Soal8.2.png)
 
 
 
