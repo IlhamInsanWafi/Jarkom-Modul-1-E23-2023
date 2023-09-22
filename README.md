@@ -179,9 +179,7 @@ Untuk menjawab soal `5c` kita dapat menganalisis IP yang merupakan public IP. Ma
 
 Setelah mengetahui jawaban tiap soal, copy`nc 10.21.78.111 11111`pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
 
-
-
-
+![soal5.10](img/Soal5.10.png)
 
 ---
 ### Soal 6
@@ -193,6 +191,8 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 ---
 ### Jawaban
 ---
+Untuk menjawab soal nomor 6, kita perlu mencari dulu file dengan nomor 7812 pada file pcap yang diberikan.
+
 
 
 
