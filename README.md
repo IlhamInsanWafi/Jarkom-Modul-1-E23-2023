@@ -193,10 +193,15 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 ---
 Untuk menjawab soal nomor 6, kita perlu mencari dulu file dengan nomor 7812 pada file pcap yang diberikan.
 
+![soal6.1](img/Soal6.1.png)
 
+Setelah, itu salin source address pada file nomor 7812 lalu decrypt menggunakan generate online. Hasilnya dapat dilihat pada file dibawah ini dan ditemukan yang sesuai dengan soal adalah `JDRNJA`
 
+![soal6.2](img/Soal6.2.png)
 
+Setelah mengetahui jawabannya , copy `10.21.78.111 6666` pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
 
+![soal6.3](img/Soal6.3.png)
 
 ---
 ### Soal 7
