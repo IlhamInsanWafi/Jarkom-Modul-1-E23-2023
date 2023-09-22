@@ -98,8 +98,9 @@ Tujuan dari filter diatas adalah untuk menyaring paket berdasarkan alamat IP sum
 
 ![soal3.1](img/Soal3.1.png)
 
-3a). Untuk menjawab soal no `3a` yaitu mengetahui banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702 yaitu dengan cara melihat dibagian bawah tampilan file pcap pada wireshark terdapat keterangan bahwa displayed = 21. Maka dapat disimpulkan bahwa paket yang tercapture pada filter tersebut sebanyak 21. 
-3b). Untuk menjawab protokol layer transport apa yang digunakan, kita dapat melihat pada tampilan hasil filter seperti pada gambar diatas, terdapat keterangan di kolom protocol itu menggunakan UDP.
+Untuk menjawab soal no `3a` yaitu mengetahui banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702 yaitu dengan cara melihat dibagian bawah tampilan file pcap pada wireshark terdapat keterangan bahwa displayed = 21. Maka dapat disimpulkan bahwa paket yang tercapture pada filter tersebut sebanyak 21. 
+
+Untuk menjawab soal `3b` yaitu protokol layer transport apa yang digunakan, kita dapat melihat pada tampilan hasil filter seperti pada gambar diatas, terdapat keterangan di kolom protocol itu menggunakan UDP.
 
 Setelah mengetahui jawaban tiap soal, copy`nc 10.21.78.111 13590`pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
 
