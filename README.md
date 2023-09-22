@@ -266,18 +266,15 @@ Untuk menjawab soal nomor 9, kita membuat kueri filter sebagai berikut:
 ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
 ```
 Penjelasan queri diatas adalah:
-- `tcp.dstport == 80`: Ini adalah bagian pertama dari kueri. Bagian ini berarti mencari paket-paket yang menggunakan protokol TCP (Transmission Control Protocol) dan memiliki port tujuan (destination port) 80
-- `||`: Ini adalah operator logika "atau" yang digunakan untuk menggabungkan dua kondisi.
-- `udp.dstport == 80`: Bagian kedua dari kueri ini berarti Anda ingin mencari paket-paket yang menggunakan protokol UDP (User Datagram Protocol) dan memiliki port tujuan 80.
+- `ip.src == 10.51.40.1`: Bagian ini berarti Anda ingin mencari paket-paket yang memiliki alamat IP sumber (source IP) sebesar 10.51.40.1. Dengan kata lain, Anda mencari paket-paket yang berasal dari alamat IP ini.
+- `&&`: Ini adalah operator logika "dan" yang digunakan untuk menggabungkan dua kondisi. 
+- `ip.dst != 10.39.55.34`: Bagian ini berarti Anda ingin mencari paket-paket yang memiliki alamat IP tujuan (destination IP) yang tidak sama dengan 10.39.55.34.
+  
+![Soal9.1](img/Soal9.1.png)
 
-![Soal8.1](img/Soal8.1.png)
+Setelah itu, copy `nc 10.21.78.111 7272` pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
 
-Setelah itu, copy `nc 10.21.78.111 7171` pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
-
-![soal8.2](img/Soal8.2.png)
-
-
-
+![soal9.2](img/Soal9.2.png)
 
 ---
 ### Soal 10
@@ -289,5 +286,21 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 ---
 ### Jawaban
 ---
+Untuk menjawab soal nomor 10 ada beberapa langkah yang harus dilakukan:
+> Search pada display capture `telnet`
+
+![soal10.1](img/Soal10.1.png)
+
+> Setelah itu analisis paket yang menunjukkan user login beserta passwordnya, pada file ini ditemukan di paket nomor 81. Setelah itu klik kanan pada paketnya, lalu pilih bagian follow -> TCP Stream
+
+![soal10.2](img/Soal10.2.png)
+
+> Setelah itu maka kresedensial user login yang benar akan terlihat
+
+![soal10.3](img/Soal10.3.png)
+
+Setelah itu, copy `nc 10.21.78.111 7373` pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
+
+![soal10.4](img/Soal10.4.png)
 
 
