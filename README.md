@@ -86,11 +86,14 @@ b. Protokol layer transport apa yang digunakan?
 ---
 ### Jawaban
 ---
-a. Untuk menjawab pertanyaan `1a` kita melakukan search pada display filter:
+Untuk menjawab soal nomor 3 kita melakukan search pada display filter:
 ```
 ip.addr == 239.255.255.250 && udp.port == 3702
 ```
 Tujuan dari filter diatas adalah untuk menyaring paket berdasarkan alamat IP sumber atau tujuan dengan  ip.addr == 239.255.255.250 . Pada filter tersebut juga terdapat parameter lain yaitu akan menampilkan paket dengan alamat IP 239.255.255.250.
+
+![soal3.1](img/Soal3.1.png)
+
 
 
 
