@@ -304,3 +304,7 @@ Setelah itu, copy `nc 10.21.78.111 7373` pada terminal, lalu akan muncul flag un
 ![soal10.4](img/Soal10.4.png)
 
 
+### Kendala Pengerjaan
+> Kestabilan akses internet kurang baik, sehingga cukup menghambat proses download file pcap soal. 
+
+
