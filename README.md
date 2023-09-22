@@ -225,7 +225,6 @@ pada sisi kanan bawah juga tercantum berapa total paket yang menuju ip tersebut.
 Seperti biasa, copy`nc 10.21.78.111 6565` pada terminal, please jangan sombonk dulu, buktikanlah..buktikanlah.. jika sudah benar, bersyukur, submit ke platform praktikum.
 ![soal7.3](img/soal7.3.png)
 
-
 ---
 ### Soal 8
 ---
@@ -236,11 +235,20 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 ---
 ### Jawaban
 ---
+Untuk menjawab soal nomor 8, kita membuat kueri filter sebagai berikut:
+```
+tcp.dstport == 80 || udp.dstport == 80
+```
+Penjelasan queri diatas adalah:
+- `tcp.dstport == 80`: Ini adalah bagian pertama dari kueri. Bagian ini berarti mencari paket-paket yang menggunakan protokol TCP (Transmission Control Protocol) dan memiliki port tujuan (destination port) 80
+- `||`: Ini adalah operator logika "atau" yang digunakan untuk menggabungkan dua kondisi.
+- `udp.dstport == 80`: Bagian kedua dari kueri ini berarti Anda ingin mencari paket-paket yang menggunakan protokol UDP (User Datagram Protocol) dan memiliki port tujuan 80.
 
+![Soal8.1](img/Soal8.1.png)
 
+Setelah itu, copy `nc 10.21.78.111 7171` pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
 
-
-
+![soal8.2](img/Soal8.2.png)
 
 ---
 ### Soal 9
