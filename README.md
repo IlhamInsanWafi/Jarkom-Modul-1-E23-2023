@@ -305,6 +305,7 @@ Setelah itu, copy `nc 10.21.78.111 7373` pada terminal, lalu akan muncul flag un
 
 
 ### Kendala Pengerjaan
-> Kestabilan akses internet kurang baik, sehingga cukup menghambat proses download file pcap soal. 
+> Kestabilan akses internet kurang baik, sehingga cukup menghambat proses download file pcap soal.
+> Pada soal nomor 6, terdapat kendala kurang paham nya maksud soal ketika sesi praktikum berlangsung, sehingga untuk soal nomor 6 dikerjakan ketika waktu revisi.
 
 
