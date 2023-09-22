@@ -32,9 +32,13 @@ karena pada soal 1 mengambil contoh aktivitas mengunggah suatu file, maka bisa j
 ftp.request.command == STOR
 ```
 ![soal1.1](img/soal1.1.png)
+
 setelah itu pilih sesuai perintah,
+
 ![soal1.2](img/soal1.2.png)
+
 pada sisi bawah terdapat beberapa panel, klik panel `Transmission Control Protocol..` untuk menemukan jawaban `1a,b`
+
 ![soal1.3](img/soal1.3.png)
 
 Kemudian untuk `1c,d` karena perintah soal menunjukkan response dari aktivitas sebelumnya, maka kita bisa search pada display filter: 
@@ -99,16 +103,7 @@ Tujuan dari filter diatas adalah untuk menyaring paket berdasarkan alamat IP sum
 
 Setelah mengetahui jawaban tiap soal, copy`nc 10.21.78.111 13590`pada terminal, lalu akan muncul flag untuk submit pada platform praktikum jika jawabannya benar.
 
-
-
-
-
-
-
-
-
-
-
+![soal3.2](img/Soal3.2.png)
 
 ---
 ### Soal 4
@@ -147,6 +142,22 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 ---
 ### Jawaban
 ---
+Untuk menjawab soal ini, kita perlu terlebih dahulu mencari password untuk bisa membuka file connect pada file zip yang diberikan. Berikut langkah-langkah untuk menemukan password nya :
+> Menganalisis isi paket dari pcap5
+> Mencari protokol smtp untuk pengiriman email
+
+![soal5.1](img/Soal5.1.png)
+
+> Mendapatkan body dari email yang berisikan password dari zip file.
+
+![soal5.2](img/Soal5.2.png)
+
+![soal5.3](img/Soal5.3.png)
+
+- Password yang didapat perlu di decode terlebih dahulu dengan base64decode lalu mendapatkan hasil decode adalah 5implePas5word.
+
+![soal5.4](img/Soal 5.4.png)
+
 
 
 
